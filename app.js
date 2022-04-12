@@ -5,6 +5,8 @@ const app = express();
 const mongoose=require("mongoose");
 const _ = require("lodash");
 
+routes.IgnoreRoute("favicon.ico");
+
 
 
 app.use(bodyparser.urlencoded({extended:true}));
