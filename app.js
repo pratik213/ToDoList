@@ -6,9 +6,6 @@ const mongoose=require("mongoose");
 const _ = require("lodash");
 
 
-
-
-
 app.use(bodyparser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
