@@ -4,8 +4,9 @@
   "description": "My first to do list",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    
   },
   "author": "LaxmiKantaDahal",
   "license": "ISC",
